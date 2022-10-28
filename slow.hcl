@@ -1,7 +1,3 @@
-#
-# minutes - BASE="." docker buildx bake -f slow.hcl
-#     19s - BASE="target:base" docker buildx bake -f slow.hcl
-#
 group "default" {
 	targets = [
 		"pkg00", "pkg01", "pkg02", "pkg03", "pkg04", "pkg05", "pkg06", "pkg07", "pkg08", "pkg09",
